@@ -75,7 +75,7 @@ def plot(data, filename):
                  horizontalalignment='center', size='x-small', weight='bold')
 
     ax.set_axisbelow(True)
-    ax.set_title('Backpropagation HOL Delay (60s Left Max Out; 120s Straight Max Out)')
+    ax.set_title('Backpropagation HOL Delay (120s Left & Straight Max Out)')
     ax.set_xticklabels(atk_rate, fontsize=8) # removed: rotation=45
     ax.set_xlabel('Attack Rates (attacker per vehicle)')
     ax.set_ylabel('Delay (s)')
